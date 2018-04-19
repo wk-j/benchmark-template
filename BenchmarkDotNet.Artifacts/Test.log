@@ -1,0 +1,84 @@
+// ***** BenchmarkRunner: Start   *****
+// Found benchmarks:
+//   Test.EqualityComparerInt32: Job-ARCTPB(Platform=X64, Toolchain=.NET Core 2.0)
+//   Test.EqualityComparerInt32: Job-PYQSUL(Platform=X64, Toolchain=.NET Core 2.1)
+
+// Validating benchmarks:
+// ***** Building 2 benchmark(s) in Parallel: Start   *****
+// ***** Done, took 00:00:07 (7.89 sec)   *****
+// **************************
+// Benchmark: Test.EqualityComparerInt32: Job-ARCTPB(Platform=X64, Toolchain=.NET Core 2.0)
+// *** Execute ***
+// Launch: 1 / 1
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (CoreCLR 4.6.0.0, CoreFX 4.6.26018.01), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-ELRCYX(Platform=X64)
+
+Pilot  1: 1600000000 op, 3530257000.00 ns, 2.2064 ns/op
+
+IdleWarmup  1: 1600000000 op, 5000.00 ns, 0.0000 ns/op
+IdleWarmup  2: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleWarmup  3: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleWarmup  4: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleWarmup  5: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleWarmup  6: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleWarmup  7: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+
+IdleTarget  1: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget  2: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget  3: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget  4: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget  5: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget  6: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget  7: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget  8: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget  9: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget 10: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget 11: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget 12: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget 13: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget 14: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget 15: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget 16: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget 17: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget 18: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget 19: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget 20: 1600000000 op, 0.00 ns, 0.0000 ns/op
+
+MainWarmup  1: 1600000000 op, 3722647000.00 ns, 2.3267 ns/op
+MainWarmup  2: 1600000000 op, 3799954000.00 ns, 2.3750 ns/op
+MainWarmup  3: 1600000000 op, 3454390000.00 ns, 2.1590 ns/op
+MainWarmup  4: 1600000000 op, 3618446000.00 ns, 2.2615 ns/op
+MainWarmup  5: 1600000000 op, 3486380000.00 ns, 2.1790 ns/op
+MainWarmup  6: 1600000000 op, 3455179000.00 ns, 2.1595 ns/op
+
+// BeforeMainRun
+MainTarget  1: 1600000000 op, 3475716000.00 ns, 2.1723 ns/op
+MainTarget  2: 1600000000 op, 3408649000.00 ns, 2.1304 ns/op
+MainTarget  3: 1600000000 op, 3430961000.00 ns, 2.1444 ns/op
+MainTarget  4: 1600000000 op, 3479892000.00 ns, 2.1749 ns/op
+MainTarget  5: 1600000000 op, 3718800000.00 ns, 2.3243 ns/op
+MainTarget  6: 1600000000 op, 3460378000.00 ns, 2.1627 ns/op
+MainTarget  7: 1600000000 op, 3528575000.00 ns, 2.2054 ns/op
+MainTarget  8: 1600000000 op, 3813685000.00 ns, 2.3836 ns/op
+MainTarget  9: 1600000000 op, 3507032000.00 ns, 2.1919 ns/op
+MainTarget 10: 1600000000 op, 3449525000.00 ns, 2.1560 ns/op
+MainTarget 11: 1600000000 op, 3465560000.00 ns, 2.1660 ns/op
+MainTarget 12: 1600000000 op, 3532765000.00 ns, 2.2080 ns/op
+MainTarget 13: 1600000000 op, 3448849000.00 ns, 2.1555 ns/op
+MainTarget 14: 1600000000 op, 3516254000.00 ns, 2.1977 ns/op
+MainTarget 15: 1600000000 op, 3560833000.00 ns, 2.2255 ns/op
+
+// AfterMainRun
+Result  1: 1600000000 op, 3475715650.00 ns, 2.1723 ns/op
+Result  2: 1600000000 op, 3408648650.00 ns, 2.1304 ns/op
+Result  3: 1600000000 op, 3430960650.00 ns, 2.1444 ns/op
+Result  4: 1600000000 op, 3479891650.00 ns, 2.1749 ns/op
+Result  5: 1600000000 op, 3460377650.00 ns, 2.1627 ns/op
+Result  6: 1600000000 op, 3528574650.00 ns, 2.2054 ns/op
+Result  7: 1600000000 op, 3507031650.00 ns, 2.1919 ns/op
+Result  8: 1600000000 op, 3449524650.00 ns, 2.
