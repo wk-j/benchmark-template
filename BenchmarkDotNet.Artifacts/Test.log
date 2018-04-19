@@ -81,4 +81,228 @@ Result  4: 1600000000 op, 3479891650.00 ns, 2.1749 ns/op
 Result  5: 1600000000 op, 3460377650.00 ns, 2.1627 ns/op
 Result  6: 1600000000 op, 3528574650.00 ns, 2.2054 ns/op
 Result  7: 1600000000 op, 3507031650.00 ns, 2.1919 ns/op
-Result  8: 1600000000 op, 3449524650.00 ns, 2.
+Result  8: 1600000000 op, 3449524650.00 ns, 2.1560 ns/op
+Result  9: 1600000000 op, 3465559650.00 ns, 2.1660 ns/op
+Result 10: 1600000000 op, 3532764650.00 ns, 2.2080 ns/op
+Result 11: 1600000000 op, 3448848650.00 ns, 2.1555 ns/op
+Result 12: 1600000000 op, 3516253650.00 ns, 2.1977 ns/op
+Result 13: 1600000000 op, 3560832650.00 ns, 2.2255 ns/op
+GC:  0 0 0 0 16
+
+// AfterAll
+
+Mean = 2.1762 ns, StdErr = 0.0077 ns (0.35%); N = 13, StdDev = 0.0278 ns
+Min = 2.1304 ns, Q1 = 2.1557 ns, Median = 2.1723 ns, Q3 = 2.2015 ns, Max = 2.2255 ns
+IQR = 0.0458 ns, LowerFence = 2.0871 ns, UpperFence = 2.2702 ns
+ConfidenceInterval = [2.1430 ns; 2.2095 ns] (CI 99.9%), Margin = 0.0332 ns (1.53% of Mean)
+Skewness = 0.15, Kurtosis = 1.78, MValue = 2
+
+// **************************
+// Benchmark: Test.EqualityComparerInt32: Job-PYQSUL(Platform=X64, Toolchain=.NET Core 2.1)
+// *** Execute ***
+// Launch: 1 / 1
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.0-preview1-26216-03 (CoreCLR 4.6.26216.04, CoreFX 4.6.26216.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-SXFMAI(Platform=X64)
+
+Pilot  1: 1600000000 op, 1273662000.00 ns, 0.7960 ns/op
+
+IdleWarmup  1: 1600000000 op, 3000.00 ns, 0.0000 ns/op
+IdleWarmup  2: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleWarmup  3: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleWarmup  4: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleWarmup  5: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleWarmup  6: 1600000000 op, 0.00 ns, 0.0000 ns/op
+
+IdleTarget  1: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget  2: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget  3: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget  4: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget  5: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget  6: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget  7: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget  8: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget  9: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget 10: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget 11: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget 12: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget 13: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget 14: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget 15: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget 16: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget 17: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget 18: 1600000000 op, 0.00 ns, 0.0000 ns/op
+IdleTarget 19: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+IdleTarget 20: 1600000000 op, 1000.00 ns, 0.0000 ns/op
+
+MainWarmup  1: 1600000000 op, 1272159000.00 ns, 0.7951 ns/op
+MainWarmup  2: 1600000000 op, 1228787000.00 ns, 0.7680 ns/op
+MainWarmup  3: 1600000000 op, 1204782000.00 ns, 0.7530 ns/op
+MainWarmup  4: 1600000000 op, 1209079000.00 ns, 0.7557 ns/op
+MainWarmup  5: 1600000000 op, 1235852000.00 ns, 0.7724 ns/op
+MainWarmup  6: 1600000000 op, 1242291000.00 ns, 0.7764 ns/op
+MainWarmup  7: 1600000000 op, 1227128000.00 ns, 0.7670 ns/op
+MainWarmup  8: 1600000000 op, 1177438000.00 ns, 0.7359 ns/op
+MainWarmup  9: 1600000000 op, 1176514000.00 ns, 0.7353 ns/op
+MainWarmup 10: 1600000000 op, 1229506000.00 ns, 0.7684 ns/op
+MainWarmup 11: 1600000000 op, 1247879000.00 ns, 0.7799 ns/op
+MainWarmup 12: 1600000000 op, 1444963000.00 ns, 0.9031 ns/op
+MainWarmup 13: 1600000000 op, 1228649000.00 ns, 0.7679 ns/op
+
+// BeforeMainRun
+MainTarget  1: 1600000000 op, 1167953000.00 ns, 0.7300 ns/op
+MainTarget  2: 1600000000 op, 1193876000.00 ns, 0.7462 ns/op
+MainTarget  3: 1600000000 op, 1328828000.00 ns, 0.8305 ns/op
+MainTarget  4: 1600000000 op, 1303100000.00 ns, 0.8144 ns/op
+MainTarget  5: 1600000000 op, 1304676000.00 ns, 0.8154 ns/op
+MainTarget  6: 1600000000 op, 1236116000.00 ns, 0.7726 ns/op
+MainTarget  7: 1600000000 op, 1360219000.00 ns, 0.8501 ns/op
+MainTarget  8: 1600000000 op, 1236753000.00 ns, 0.7730 ns/op
+MainTarget  9: 1600000000 op, 1216471000.00 ns, 0.7603 ns/op
+MainTarget 10: 1600000000 op, 1196871000.00 ns, 0.7480 ns/op
+MainTarget 11: 1600000000 op, 1218255000.00 ns, 0.7614 ns/op
+MainTarget 12: 1600000000 op, 1283487000.00 ns, 0.8022 ns/op
+MainTarget 13: 1600000000 op, 1353010000.00 ns, 0.8456 ns/op
+MainTarget 14: 1600000000 op, 1260246000.00 ns, 0.7877 ns/op
+MainTarget 15: 1600000000 op, 1327083000.00 ns, 0.8294 ns/op
+MainTarget 16: 1600000000 op, 1232847000.00 ns, 0.7705 ns/op
+MainTarget 17: 1600000000 op, 1257404000.00 ns, 0.7859 ns/op
+MainTarget 18: 1600000000 op, 1214213000.00 ns, 0.7589 ns/op
+MainTarget 19: 1600000000 op, 1267080000.00 ns, 0.7919 ns/op
+MainTarget 20: 1600000000 op, 1226494000.00 ns, 0.7666 ns/op
+MainTarget 21: 1600000000 op, 1212333000.00 ns, 0.7577 ns/op
+MainTarget 22: 1600000000 op, 1208689000.00 ns, 0.7554 ns/op
+MainTarget 23: 1600000000 op, 1212328000.00 ns, 0.7577 ns/op
+MainTarget 24: 1600000000 op, 1216885000.00 ns, 0.7606 ns/op
+MainTarget 25: 1600000000 op, 1224873000.00 ns, 0.7655 ns/op
+MainTarget 26: 1600000000 op, 1268089000.00 ns, 0.7926 ns/op
+MainTarget 27: 1600000000 op, 1213783000.00 ns, 0.7586 ns/op
+MainTarget 28: 1600000000 op, 1212537000.00 ns, 0.7578 ns/op
+MainTarget 29: 1600000000 op, 1182391000.00 ns, 0.7390 ns/op
+MainTarget 30: 1600000000 op, 1205193000.00 ns, 0.7532 ns/op
+MainTarget 31: 1600000000 op, 1203197000.00 ns, 0.7520 ns/op
+MainTarget 32: 1600000000 op, 1199632000.00 ns, 0.7498 ns/op
+MainTarget 33: 1600000000 op, 1195310000.00 ns, 0.7471 ns/op
+MainTarget 34: 1600000000 op, 1159794000.00 ns, 0.7249 ns/op
+MainTarget 35: 1600000000 op, 1206729000.00 ns, 0.7542 ns/op
+MainTarget 36: 1600000000 op, 1178776000.00 ns, 0.7367 ns/op
+MainTarget 37: 1600000000 op, 1170570000.00 ns, 0.7316 ns/op
+MainTarget 38: 1600000000 op, 1184275000.00 ns, 0.7402 ns/op
+MainTarget 39: 1600000000 op, 1165745000.00 ns, 0.7286 ns/op
+MainTarget 40: 1600000000 op, 1193180000.00 ns, 0.7457 ns/op
+MainTarget 41: 1600000000 op, 1230844000.00 ns, 0.7693 ns/op
+
+// AfterMainRun
+Result  1: 1600000000 op, 1167952550.00 ns, 0.7300 ns/op
+Result  2: 1600000000 op, 1193875550.00 ns, 0.7462 ns/op
+Result  3: 1600000000 op, 1328827550.00 ns, 0.8305 ns/op
+Result  4: 1600000000 op, 1303099550.00 ns, 0.8144 ns/op
+Result  5: 1600000000 op, 1304675550.00 ns, 0.8154 ns/op
+Result  6: 1600000000 op, 1236115550.00 ns, 0.7726 ns/op
+Result  7: 1600000000 op, 1236752550.00 ns, 0.7730 ns/op
+Result  8: 1600000000 op, 1216470550.00 ns, 0.7603 ns/op
+Result  9: 1600000000 op, 1196870550.00 ns, 0.7480 ns/op
+Result 10: 1600000000 op, 1218254550.00 ns, 0.7614 ns/op
+Result 11: 1600000000 op, 1283486550.00 ns, 0.8022 ns/op
+Result 12: 1600000000 op, 1260245550.00 ns, 0.7877 ns/op
+Result 13: 1600000000 op, 1327082550.00 ns, 0.8294 ns/op
+Result 14: 1600000000 op, 1232846550.00 ns, 0.7705 ns/op
+Result 15: 1600000000 op, 1257403550.00 ns, 0.7859 ns/op
+Result 16: 1600000000 op, 1214212550.00 ns, 0.7589 ns/op
+Result 17: 1600000000 op, 1267079550.00 ns, 0.7919 ns/op
+Result 18: 1600000000 op, 1226493550.00 ns, 0.7666 ns/op
+Result 19: 1600000000 op, 1212332550.00 ns, 0.7577 ns/op
+Result 20: 1600000000 op, 1208688550.00 ns, 0.7554 ns/op
+Result 21: 1600000000 op, 1212327550.00 ns, 0.7577 ns/op
+Result 22: 1600000000 op, 1216884550.00 ns, 0.7606 ns/op
+Result 23: 1600000000 op, 1224872550.00 ns, 0.7655 ns/op
+Result 24: 1600000000 op, 1268088550.00 ns, 0.7926 ns/op
+Result 25: 1600000000 op, 1213782550.00 ns, 0.7586 ns/op
+Result 26: 1600000000 op, 1212536550.00 ns, 0.7578 ns/op
+Result 27: 1600000000 op, 1182390550.00 ns, 0.7390 ns/op
+Result 28: 1600000000 op, 1205192550.00 ns, 0.7532 ns/op
+Result 29: 1600000000 op, 1203196550.00 ns, 0.7520 ns/op
+Result 30: 1600000000 op, 1199631550.00 ns, 0.7498 ns/op
+Result 31: 1600000000 op, 1195309550.00 ns, 0.7471 ns/op
+Result 32: 1600000000 op, 1159793550.00 ns, 0.7249 ns/op
+Result 33: 1600000000 op, 1206728550.00 ns, 0.7542 ns/op
+Result 34: 1600000000 op, 1178775550.00 ns, 0.7367 ns/op
+Result 35: 1600000000 op, 1170569550.00 ns, 0.7316 ns/op
+Result 36: 1600000000 op, 1184274550.00 ns, 0.7402 ns/op
+Result 37: 1600000000 op, 1165744550.00 ns, 0.7286 ns/op
+Result 38: 1600000000 op, 1193179550.00 ns, 0.7457 ns/op
+Result 39: 1600000000 op, 1230843550.00 ns, 0.7693 ns/op
+GC:  0 0 0 0 16
+
+// AfterAll
+
+Mean = 0.7647 ns, StdErr = 0.0043 ns (0.56%); N = 39, StdDev = 0.0267 ns
+Min = 0.7249 ns, Q1 = 0.7471 ns, Median = 0.7586 ns, Q3 = 0.7730 ns, Max = 0.8305 ns
+IQR = 0.0259 ns, LowerFence = 0.7082 ns, UpperFence = 0.8118 ns
+ConfidenceInterval = [0.7494 ns; 0.7800 ns] (CI 99.9%), Margin = 0.0153 ns (2.00% of Mean)
+Skewness = 0.88, Kurtosis = 3.09, MValue = 2
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts/results/Test-report-github.md
+
+// * Detailed results *
+Test.EqualityComparerInt32: Job-ARCTPB(Platform=X64, Toolchain=.NET Core 2.0)
+Runtime = .NET Core 2.0.5 (CoreCLR 4.6.0.0, CoreFX 4.6.26018.01), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 2.1762 ns, StdErr = 0.0077 ns (0.35%); N = 13, StdDev = 0.0278 ns
+Min = 2.1304 ns, Q1 = 2.1557 ns, Median = 2.1723 ns, Q3 = 2.2015 ns, Max = 2.2255 ns
+IQR = 0.0458 ns, LowerFence = 2.0871 ns, UpperFence = 2.2702 ns
+ConfidenceInterval = [2.1430 ns; 2.2095 ns] (CI 99.9%), Margin = 0.0332 ns (1.53% of Mean)
+Skewness = 0.15, Kurtosis = 1.78, MValue = 2
+-------------------- Histogram --------------------
+[2.120 ns ; 2.187 ns) | @@@@@@@@
+[2.187 ns ; 2.236 ns) | @@@@@
+---------------------------------------------------
+
+Test.EqualityComparerInt32: Job-PYQSUL(Platform=X64, Toolchain=.NET Core 2.1)
+Runtime = .NET Core 2.1.0-preview1-26216-03 (CoreCLR 4.6.26216.04, CoreFX 4.6.26216.02), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 0.7647 ns, StdErr = 0.0043 ns (0.56%); N = 39, StdDev = 0.0267 ns
+Min = 0.7249 ns, Q1 = 0.7471 ns, Median = 0.7586 ns, Q3 = 0.7730 ns, Max = 0.8305 ns
+IQR = 0.0259 ns, LowerFence = 0.7082 ns, UpperFence = 0.8118 ns
+ConfidenceInterval = [0.7494 ns; 0.7800 ns] (CI 99.9%), Margin = 0.0153 ns (2.00% of Mean)
+Skewness = 0.88, Kurtosis = 3.09, MValue = 2
+-------------------- Histogram --------------------
+[0.718 ns ; 0.742 ns) | @@@@@@@
+[0.742 ns ; 0.760 ns) | @@@@@@@@@@@@@@
+[0.760 ns ; 0.781 ns) | @@@@@@@@@
+[0.781 ns ; 0.801 ns) | @@@@
+[0.801 ns ; 0.838 ns) | @@@@@
+---------------------------------------------------
+
+Total time: 00:02:44 (164.69 sec)
+
+// * Summary *
+
+BenchmarkDotNet=v0.10.14, OS=macOS High Sierra 10.13.3 (17D102) [Darwin 17.4.0]
+Intel Core i5-7360U CPU 2.30GHz (Kaby Lake), 1 CPU, 4 logical and 2 physical cores
+.NET Core SDK=2.1.300-preview1-008174
+  [Host]     : .NET Core 2.0.5 (CoreCLR 4.6.0.0, CoreFX 4.6.26018.01), 64bit RyuJIT
+  Job-ARCTPB : .NET Core 2.0.5 (CoreCLR 4.6.0.0, CoreFX 4.6.26018.01), 64bit RyuJIT
+  Job-PYQSUL : .NET Core 2.1.0-preview1-26216-03 (CoreCLR 4.6.26216.04, CoreFX 4.6.26216.02), 64bit RyuJIT
+
+
+                Method |     Toolchain |      Mean | Allocated |
+---------------------- |-------------- |----------:|----------:|
+ EqualityComparerInt32 | .NET Core 2.0 | 2.1762 ns |       0 B |
+ EqualityComparerInt32 | .NET Core 2.1 | 0.7647 ns |       0 B |
+
+// * Legends *
+  Mean      : Arithmetic mean of all measurements
+  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  1 ns      : 1 Nanosecond (0.000000001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+// * Artifacts cleanup *
